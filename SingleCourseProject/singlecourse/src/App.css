@@ -1,0 +1,52 @@
+.courses-div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.course-card{
+  border: 1px solid grey;
+  width: 350px;
+  border-radius: 30px;
+  padding: 30px;
+}
+
+.courses-content-div{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card-price{
+  font-style: italic;
+  color: blue;
+}
+
+.card-button{
+  width: 200px;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  background-color: cornsilk;
+  color: black;
+}
+
+.no-course-div{
+  text-align: center;
+}
+
+.icon-div{
+  border: none;
+  color: brown;
+  background-color: transparent;
+  font-size: 30px;
+}
+
+.random-course-title{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 25px;
+}
