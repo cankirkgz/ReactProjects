@@ -1,0 +1,95 @@
+body {
+  background-color: #001F3F;
+  color: #FFA500;
+  margin: 0; /* Ekranın dört kenarına boşluk bırakmayı kaldırır */
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.input-form {
+  width: 100%;
+  max-width: 500px;
+  padding: 30px;
+  background-color: #2d3748;
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin: 20px;
+}
+
+.input-form label {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 8px;
+  display: block; /* Etiketleri blok seviyeye alarak sağa kaymayı düzeltir */
+}
+
+.input-div {
+  margin-bottom: 15px;
+}
+
+input, select {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #4a5568;
+  background-color: #2d3748;
+  color: white;
+  margin: 5px 0;
+  outline: none;
+  border-radius: 10px;
+  box-sizing: border-box; /* Sağa kaymayı düzeltir */
+}
+
+input::placeholder {
+  color: lightgray;
+}
+
+input:focus {
+  border-color: lightblue;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  margin: 20px 0;
+  background-color: green;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 20px;
+  border: none;
+}
+
+.input-error{
+  border-color: #fc8181;
+}
+
+.error{
+  color: #fc8181;
+  font-size: 12px;
+  text-align: left;
+}
+
+.checkbox{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.checkbox input{
+  width: auto;
+}
+
+.checkbox span{
+  margin-left: 5px;
+}
+
+.formlink{
+  color: white;
+}
